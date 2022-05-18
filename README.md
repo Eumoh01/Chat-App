@@ -10,6 +10,8 @@ Use the package manager [pip](https://pip.pypa.io/en/stable/cli/pip_install/) to
 #### To install and activate the virtual environment:
 ```bash
 pip install virtualenv
+```
+```bash
 virtualenv env 
 ```
 To activate for Mac: 
