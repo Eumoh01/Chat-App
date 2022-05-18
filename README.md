@@ -58,6 +58,6 @@ Once you have completed these steps and run the you should see a link for a port
 If you are on a mac with python already installed it may not have the right version(python 3) so you will need to make sure to install the right [version](https://www.python.org/downloads/)
 
 You will also then need to make sure to replace every pip or python command with: 
-```bash pip3``` or ```bash python3``` 
+``` pip3``` or ``` python3``` 
 
 
