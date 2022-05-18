@@ -62,6 +62,6 @@ If you are on a mac with python already installed it may not have the right vers
 You will also then need to make sure to replace every pip or python command with: 
 ``` pip3``` or ``` python3``` 
 
-You may also want to delete files: ``` __pycache__```, ``` app.db```, ``` chat.db```
+You may also want to delete files: ``` __pycache__```, ``` app.db```, ``` chat.db``` since running the commands above will give you your own
 
 
