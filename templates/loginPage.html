@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block head %}
+    <title>Login</title>
+{% endblock %}
+
+{% block body %}
+        <div class="body">
+            <br>
+            <form action="" method="POST">
+                Username: <br/> <input type="text" name="username">
+                <br/><br/>
+                Password: <br/> <input type="text" name="password" />
+                <br/>
+                <input id="sign_in" type="submit" value="Sign In">
+                <br/>
+                <br/>
+            </form>
+            <p>Don't have an account?</p>
+            <a id="register" href="/register"> Register </a>
+        </div>
+{% endblock %}
+
+{% block nav %}
+    <h3>Welcome! Enter username and password or register an account below</h3>
+{% endblock %}
+
+{% block page %}Log In!{% endblock %}
